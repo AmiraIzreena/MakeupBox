@@ -1,0 +1,220 @@
+  /*====================
+      body, navigation
+  =====================*/  
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+    margin: auto;
+    height: 100%;
+    background-color: #fbe5ec;
+    padding: 1rem;
+}
+.bg-image{    
+  background-image: url("makeup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;padding-bottom: 70px;
+}
+  /* Style the top navigation bar */
+  .topnav {
+    font-family: Garamond, serif;
+    overflow: hidden;
+    background-color: rgb(101, 18, 18);
+    font-size: 19.5px;
+  }
+  .logo{
+    font-family: Garamond, serif;
+    color: rgb(101, 18, 18);
+    display: block;
+    font-size: 19.5px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color:#ffd2e2;
+    color: rgb(101, 18, 18);
+  }
+  
+  /* Style the content */
+  .content {
+    background-color: rgb(94, 18, 18);
+    color: #fbe5ec;
+    padding: 20px;
+    margin: auto;
+    max-width: 60rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /*=============
+      footer
+  ===============*/  
+  .footer{
+    background: rgb(94, 18, 18);
+    border: double 5px #ffe6ef;
+    padding: 5px 50px;
+    color: #ffe6ef;
+  }
+
+  span.footerlogo{
+    color: #fbe5ec;
+    font-family: Garamond, serif;
+  }
+  /*=============
+      card
+  ===============*/  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    background-color: #ffe6ef;
+    color: #721939;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  }
+  
+  /*=============
+  column and row
+  ===============*/  
+.column {
+  padding-top: 20px;
+  width: 100%;
+  margin: auto; 
+}
+
+/*=============
+    img
+===============*/
+img {
+  width: 300px;
+  height: 200px;
+  border: outset #721939;
+  margin-right:  30px;
+  margin-left: 30px;
+}
+		
+/*=============
+    Scroll
+===============*/
+
+  /*width*/ 
+  ::-webkit-scrollbar {
+    width: 20px;
+    }
+
+  /*Track */
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(235, 187, 187); 
+    border-radius: 10px;
+    }
+  /*Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #721939; 
+    border-radius: 10px;
+    }
+
+  /*Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+    background: #63182e; 
+}
+
+/*=============
+    Search 
+===============*/
+
+.search-input{
+  padding: 10px;
+  border: 4px solid #3f273c;
+  border-radius:70px ;
+  text-align: center;
+  width: 300px;
+  outline: none;
+  font-size: 20px;
+  color: black;
+  background: #ffd2e2;
+
+}
+
+.search-button{
+  text-align: center;
+  height:40px;
+  width: 90px;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: none;
+  background-color: #ffe6ef;
+  font-size: 20px;
+
+}
+
+.search-button:hover{ 
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.4);
+  }
+/*=============
+    Form 
+===============*/
+form{
+  background-image: url("makeup1.jpg");
+  height: 500px;
+  width: 550px;
+  margin: auto;
+  border-radius: 4px ;
+  border:6px solid #721939;
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+form-control{
+  border-radius: 4px 0 0 0;
+  border-color: #721939;
+  text-align: center;
+}
+/*=============
+  Glow the text
+===============*/
+
+.glow {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d2046b, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/*=============
+    Label 
+===============*/
+label{
+  text-shadow: 2px 2px 4px #3f1010;
+}

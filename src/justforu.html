@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	
+
+	<title>Makeup Box</title>
+</head>
+	<body>
+		<div class="bg-image">
+		<div class="topnav"> <!--NAVIGATION BAR-->
+			<div class="logo"><a href ="justforu.html#">Just For U</a></div>
+			<a href = "index.html#">MY FAVOURITE</a>
+			<a href="#" style="float: right;" onclick="self.close();">EXIT</a>
+		</div> 
+		<br><br> <!--IMAGE SECTION FOR USER TO EASE THE SEARCHING-->
+		<img src="nyx.png">
+		<img src="maybelline.jpg">
+		<img src="revlon.png">
+		<img src="l'oreal.png">
+		<img src="wnw.jpg">
+		<img src="elf.jpg">
+		<img src="dior.png">
+		<img src="clinique.jpg">
+		<br><br>
+
+		<div class="content"> <!--FOR SEARCHING THE PRODUCT-->
+			<p>Want to search product for the brand above? Try here! </p>
+			<input type="text" placeholder ="Enter Brand"  class="search-input" id="brands">
+			<input type="text" placeholder ="Enter Category" class="search-input" id="category">
+			<button onclick="buttonClicked()" class="search-button" class="submit">Search</button>
+		</div></div></div>
+	<br><br>
+
+<div class="glow"><h1>OUR RECOMMENDATION</h1></div> <!--WILL DISPLAY THE RECOMMENDATION PRODUCTS-->
+<div class="info" id="info" hidden> <!--PREVENTING FROM OVERLAP DATA-->
+		<div class="row">
+			<div class="column">
+				<div class="card" >
+				
+					<div>BRAND:</div> <div id="displayb"> </div>
+					<br>
+					<div>NAME: </div><div id="name"> </div>
+					<br>
+					<div>CATEGORY:</div> <div id="displayc"></div>
+					<br>					
+					<div>DESCRIPTION: </div><div id="desc"> </div>
+					<br>
+					<div>PRICE: </div><div id="price"></div>
+					<br>
+					<div>Check It Out:<a id="web"  href = ""></a></div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="card">
+					<div>BRAND:</div> <div id="displayb1"> </div>
+					<br>
+					<div>NAME:</div> <div id="name1"> </div>
+					<br>
+					<div>CATEGORY: </div> <div id="displayc1"></div>
+					<br>					
+					<div>DESCRIPTION: </div><div id="desc1"> </div>
+					<br>
+					<div>PRICE: </div><div id="price1"></div>
+					<br>
+					<div>Check It Out:<a id="web1"  href = ""></a></div>
+				</div>
+			</div>
+		</div>
+		
+		<br><br>
+		<div class="footer"> <!--FOOTER-->
+		<p>&copy; 2022
+			<span class="footerlogo">Just For U</span> All Rights Reserved.</p>
+		</div>
+
+		<script src="index.js"></script> <!--SCRIPT-->
+	</body>
+</html>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="photon.min.css"/>
+	<title>Makeup Box</title>
+</head>
+<body>
+
+  <div class="topnav"> <!--FOR NAVIGATION-->
+    <div class="logo"><a href ="justforu.html#">Just For U</a></div>
+    <a href = "index.html#">MY FAVOURITE</a>
+    <a href="#" style="float: right;" onclick="self.close();">EXIT</a>
+  </div> 
+  <br><br>
+
+      <div class="glow">
+      <h1>MY FAVOURITE</h1></div>
+<hr>
+      <form> <!--FORM FOR USER INPUTATION THE TOP LIST BRAND-->
+        <div class="form-group">
+          <label style="font-size:22px;color:rgb(255, 255, 255); ">Your Name </label>
+          <input placeholder="Please enter your name : (e.g. Reena.txt)" id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label style="font-size:22px;color: rgb(255, 255, 255);">What's Your Top 5 Makeup Brand List </label>
+          <textarea id="fileContents" class="form-control" placeholder="Feel free to list down your own favourite brand!" rows="10"></textarea>
+      </form>
+      <br><br>
+      <button id="btnCreate" class="search-button">Create</button>
+      <button id="btnRead" class="search-button">Read</button>
+      <button id="btnDelete" class="search-button">Delete</button>
+      <button id="btnUpdate" class="search-button">Update</button>
+    </div>
+    <br><br>
+
+    <div class="footer"><!--FOOTER-->
+    <p>&copy; 2022
+          <span class="footerlogo">Just For U</span> All Rights Reserved.</p>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
